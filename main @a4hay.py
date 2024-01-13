@@ -9,7 +9,7 @@ from telebot import *
 from NEW412 import Tele
 from colorama import Fore
 sto = {"stop":False}
-token = "6481205043:AAEP6O66EeKJc9jraQ-PXsZOSPuplZ5RLmE" 
+token = "6894882876:AAGDKieaI4Y8ZIKxHzuJ_Rs0SXWKAohdppY" 
 id =  5551232924
 bot=telebot.TeleBot(token,parse_mode="HTML")
 @bot.message_handler(commands=["stop"])
@@ -18,7 +18,7 @@ def start(message):
     bot.reply_to(message,'BSDK STOP😂HOGAYA ')
 @bot.message_handler(commands=["start"])
 def start(message):
- bot.send_message(message.chat.id,"SEND YOUR CC .TXT FILE, BOT MADE BY @PvT_VICtORY ".format(message.chat.first_name),reply_markup=telebot.types.InlineKeyboardMarkup())
+ bot.send_message(message.chat.id,"SEND YOUR CC .TXT FILE, BOT MADE BY @A_r_e_a_5_1 ".format(message.chat.first_name),reply_markup=telebot.types.InlineKeyboardMarkup())
 @bot.message_handler(content_types=["document"])
 def main(message):
  first_name = message.from_user.first_name
@@ -160,9 +160,9 @@ def main(message):
                    print(Fore.YELLOW+cc+"->"+Fore.RED+last)
        if sto["stop"] == False:
            bot.reply_to(message,'𝘾𝙝𝙚𝙘𝙠 𝙃𝙤𝙜𝙖𝙮𝙖 ✅, 𝙎𝙚𝙣𝙙 𝘼𝙣𝙤𝙩𝙝𝙚𝙧 𝘾𝘾 𝘾𝙤𝙢𝙗𝙤')
-           bot.reply_to(message,'@a4checkerbot  𝘽𝙔  @a4hay 𝘿𝙈 𝙏𝙊 𝘽𝙐𝙔 𝙎𝘾𝙍𝙄𝙋𝙏\n @𝙋𝙫𝙏_𝙑𝙄𝘾𝙩𝙊𝙍𝙔')
+           bot.reply_to(message,'CC Checker  𝘽𝙔  @A_r_e_a_5_1 𝘿𝙈 𝙏𝙊 𝘽𝙐𝙔 𝙎𝘾𝙍𝙄𝙋𝙏\n @𝙋𝙫𝙏_𝙑𝙄𝘾𝙩𝙊𝙍𝙔')
  else:
-     bot.reply_to(message,'@a4checkerbot  𝘽𝙔  @a4hay 𝘿𝙈 𝙏𝙊 𝘽𝙐𝙔 𝙎𝘾𝙍𝙄𝙋𝙏\n @𝙋𝙫𝙏_𝙑𝙄𝘾𝙩𝙊𝙍𝙔')
+     bot.reply_to(message,'CC Checker  𝘽𝙔  @A_r_e_a_5_1 𝘿𝙈 𝙏𝙊 𝘽𝙐𝙔 𝙎𝘾𝙍𝙄𝙋𝙏\n @𝙋𝙫𝙏_𝙑𝙄𝘾𝙩𝙊𝙍𝙔')
 keep_alive()
-print("𝙎𝙏𝘼𝙍𝙏𝙀𝘿 𝘽𝙊𝙏 𝘽𝙔  @a4hay")
+print("𝙎𝙏𝘼𝙍𝙏𝙀𝘿 𝘽𝙊𝙏 𝘽𝙔  @A_r_e_a_5_1")
 bot.infinity_polling()
